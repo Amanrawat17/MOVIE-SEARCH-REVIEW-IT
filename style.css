@@ -1,0 +1,76 @@
+/* Set box-sizing property for all elements */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    background-color: #131720;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  /* Top navigation bar styles */
+  .topnav {
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  
+  /* Search container styles */
+  .topnav .search-container {
+    float: right;
+  }
+  
+  /* Form styles */
+  form {
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Input styles */
+  input {
+    font: 15px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+  }
+  
+  /* Thumbnail image styles */
+  .thumbnail {
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+  }
+  
+  /* Column styles */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+  }
+  
+  /* Card styles */
+  .card {
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
+  }
+  
